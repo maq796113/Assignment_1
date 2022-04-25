@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Home Page</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top justify-content-center">
+            <div class="container-fluid">
+                <a class="navbar-brand">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="cv.html">CV</a></li>
+                                <li><a class="dropdown-item" href="projects.html">Projects</a></li>
+                                <li><a class="dropdown-item" href="contact.html">Contacts</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="bg-primary bg-warning bg-gradient text-white py-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 text-left text-md-center mb-3">
+                        <img class="rounded-circle img-fluid" src="res/imgs/me.jpeg" alt="Profile Photo" />
+                    </div>
+                    <div class="col-md-9">
+                        <h1>Muhammad Abdullah Qureshi</h1>
+                        <h5>Freelance Web Developer</h5>
+                        <p class="border-top pt-3">
+                            My interests include mobile app development, discord bot development. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin viverra ipsum eget imperdiet eleifend. Proin posuere, massa nec ultricies luctus, nibh nisl rhoncus dolor, ac mollis sem justo id elit. Nullam feugiat non neque vel laoreet. Praesent aliquam blandit lorem sed commodo. In nulla mauris, imperdiet et mauris ut, elementum vestibulum elit. Proin a malesuada elit. Vivamus eget dignissim augue, laoreet egestas nulla. Morbi elementum aliquam nisi, in pharetra leo auctor at. Nulla vel leo sit amet libero luctus malesuada. Donec viverra ut metus vel egestas. Vivamus dignissim at felis sit amet elementum. Nunc nec dignissi
+                            Sed in suscipit nulla. Nam ultricies libero in mauris consequat, vitae sollicitudin purus efficitur. In vitae ipsum a dui tristique commodo in ut arcu. Nullam faucibus pulvinar ante, mattis congue lorem sollicitudin ut. Duis eu purus lacus. Aenean scelerisque mollis interdum. Praesent eget lectus mollis, accumsan magna venenatis, pulvinar nunc. Curabitur rhoncus nisl interdum commodo mollis. Suspendisse faucibus sem arcu, id blandit libero porttitor vel. Ut eget leo leo. Morbi id massa diam. Vivamus venenatis velit id mattis dictum. Pellentesque eget sapien venenatis, convallis mi a, tincidunt lacus. Fusce sit amet aliquam felis, a dapibus dui. Nulla mollis ultrices congue.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <nav class="bg-dark text-white-50 mb-5">
+            <div class="container">
+                <div class="row p-3">
+                    <div class="col-md pb-2 pb-md-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                        </svg>
+                        <a href="mailto:maq796113@gmail.com" class="text-white ml-2">maq796113@gmail.com</a>
+                    </div>
+                    <div class="col-md text-md-center pb-2 pb-md-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                        </svg>
+                        <a href="https://github.com/maq796113" class="text-white ml-2">github.com/maq796113</a>
+                    </div>
+                    <div class="col-md text-md-right">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                        </svg>
+                        <a href="#" class="text-white ml-2">+92 3334755359</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </body>
+</html>

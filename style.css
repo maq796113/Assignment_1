@@ -1,0 +1,46 @@
+h1 {
+    text-align:center;
+}
+
+.bg-warning.bg-gradient {
+    background-image: var(--bs-gradient);
+}
+
+#GFG {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn:hover {
+        background-color: RoyalBlue;
+    }
+
+html {
+    overflow: auto;
+}
+
+html,
+body,
+div,
+iframe {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    border: none;
+}
+
+iframe {
+    display: block;
+    width: 100%;
+    border: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
